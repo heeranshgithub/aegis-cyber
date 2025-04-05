@@ -24,5 +24,5 @@ export default function TechStackSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
