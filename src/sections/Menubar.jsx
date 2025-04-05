@@ -1,6 +1,6 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-export default function Navbar() {
+export default function Menubar() {
   return (
     <nav className="fixed top-0 w-full bg-gray-900/90 backdrop-blur-sm z-50 border-b border-gray-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -18,5 +18,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }

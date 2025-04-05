@@ -1,30 +1,30 @@
-import { Shield, Code, Server, Lock } from 'lucide-react'
-import ServiceCard from '../ui/ServiceCard'
+import { Shield, Code, Server, Lock } from "lucide-react";
+import ServiceCard from "@/components/ServiceCard";
 
 export default function ServicesSection() {
   const services = [
     {
       icon: Shield,
-      title: 'Security Assessment',
+      title: "Security Assessment",
       description:
-        'Comprehensive security audits and vulnerability assessments',
+        "Comprehensive security audits and vulnerability assessments",
     },
     {
       icon: Code,
-      title: 'Secure Development',
-      description: 'Secure coding practices and application security',
+      title: "Secure Development",
+      description: "Secure coding practices and application security",
     },
     {
       icon: Server,
-      title: 'Infrastructure Security',
-      description: 'Protection for your cloud and network infrastructure',
+      title: "Infrastructure Security",
+      description: "Protection for your cloud and network infrastructure",
     },
     {
       icon: Lock,
-      title: 'Data Protection',
-      description: 'Advanced encryption and data security solutions',
+      title: "Data Protection",
+      description: "Advanced encryption and data security solutions",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 bg-gray-800">
@@ -37,5 +37,5 @@ export default function ServicesSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
