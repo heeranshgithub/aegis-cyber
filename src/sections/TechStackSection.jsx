@@ -8,14 +8,14 @@ export default function TechStackSection() {
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            "AWS",
-            "Azure",
-            "Docker",
-            "Kubernetes",
-            "Python",
-            "Go",
-            "React",
-            "Node.js",
+            'SIEM',
+            'Firewall',
+            'IDS/IPS',
+            'Zero Trust',
+            'Threat Intelligence',
+            'SOC',
+            'Encryption',
+            'IAM',
           ].map((tech, index) => (
             <div key={index} className="bg-gray-800 p-4 rounded-lg text-center">
               <p className="font-semibold">{tech}</p>
@@ -24,5 +24,5 @@ export default function TechStackSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

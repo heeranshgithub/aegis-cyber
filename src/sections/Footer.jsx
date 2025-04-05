@@ -13,14 +13,14 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center">
-                <Mail className="w-5 h-5 mr-2" /> contact@aegiscyber.com
+                <Mail className="w-5 h-5 mr-2" /> neerajchaudhary@aegiscyber.com
               </p>
               <p className="flex items-center">
-                <Phone className="w-5 h-5 mr-2" /> +1 (555) 123-4567
+                <Phone className="w-5 h-5 mr-2" /> +91 98806 32392
               </p>
               <p className="flex items-center">
-                <MapPin className="w-5 h-5 mr-2" /> 123 Security Street, Tech
-                City
+                <MapPin className="w-5 h-5 mr-2" /> Akshayanagar,
+                Bangalore
               </p>
             </div>
           </div>
